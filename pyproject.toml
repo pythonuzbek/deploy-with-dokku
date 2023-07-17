@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dokku-deployment"
+version = "0.1.0"
+description = ""
+authors = ["pythonuzbek <nusratullo3304@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dokku_deployment"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.100.0"
+uvicorn = "^0.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
