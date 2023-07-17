@@ -4,14 +4,11 @@ on:
   push:
     branches:
       - main
-
 jobs:
   deploy:
     name: Dokku deploy
     runs-on: ubuntu-latest
-
 #    needs: build
-
     steps:
       - name: Cloning repo
         uses: actions/checkout@v2
