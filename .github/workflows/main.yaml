@@ -22,5 +22,5 @@ jobs:
         with:
           branch: 'develop'
           git_push_flags: '--force'
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh_private_key: ${{ secrets.SSH_PUBLIC_KEY }}
           git_remote_url: 'ssh://dokku@138.68.72.238/fastapi'
